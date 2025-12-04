@@ -1,0 +1,23 @@
+1. Common data types
+We've learned to create variables and work with strings and integers. Now let's expand this and learn about more common data types.
+
+2. Decimal data types
+We've learned that integers are the data type for whole numbers. What if a recipe calls for 1.5 tomatoes? This number is now a decimal, and Python has data types for these too. We'll test this out and store it as new_ingredient_quantity. In Python, numbers with decimals are classified as floats. Similar to integers, we do not use quotation marks when storing this value.
+
+3. Boolean data types
+Python has another useful data type called a boolean that can only store two values: True or False. Booleans are great for storing yes/no information or tracking whether something is on or off. In programming, we use them to make decisions and control what our programs do next. Let's add this information. We can create a boolean variable called is_in_stock and set it to True if we have it in stock, and False if we don't. Note that True and False must be capitalized, and do not use quotation marks; otherwise, they will not work in Python.
+
+4. The type function
+Now we've worked with four different data types: strings for text, integers for whole numbers, floats for decimals, and booleans for yes/no information. Python provides a helpful function called type() that tells us the data type stored in any variable. The type() function is especially useful when debugging or working with data from external sources where we're not sure what type we're getting.
+
+5. The type function
+We can pass any variable into the type() function and then use the print() function to display the result. The type() function will typically return a text that starts with the less than symbol (<) and the word class followed by the data type in short form, ending with the greater than symbol (>).
+
+6. Understanding data types
+Knowing what data types we are working with can be helpful to understand what our code is doing and why. With the type function, we can quickly identify if we're working with the correct data type. This also determines what operations we can perform on our data, such as specific functions that are only available to certain types. We'll explore these functions more in the next video.
+
+7. Operators
+Python uses symbols called operators to perform computations. Arithmetic operators are plus for addition, a hyphen used for subtraction, the asterisk for multiplication; and a forward slash for division. When working with numbers, all four operators behave like regular math and Python automatically handles mixes of the two types. With strings, only + and * work: + joins strings together, and * repeats them. The others will cause an error.
+
+8. Let's practice!
+For now, it is your turn to work with variables.

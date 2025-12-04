@@ -1,0 +1,36 @@
+1. Python variables, strings, and integers
+Great work with your first print statement. Now let's learn about variables and data types, fundamental concepts in any programming language.
+
+2. Understanding variables
+As we write code, we'll often use the same values multiple times. Variables let us store these values with descriptive names, so our code is easier to read and update. Instead of typing the same thing over and over, we give it a name and reference that name whenever we need it. Variables work like labeled containers. Just as we might label a container "Pasta" so we can quickly find it later, we label our data so we can easily use it throughout our code.
+
+
+3. Data types
+The information we store comes in different types. A data type tells us what kind of information a value represents, like whether it's a number, a piece of text, or a True/False answer. Python figures this out automatically based on what we store, but understanding data types helps us know what we can do with our data.
+
+4. String data types
+For our recipe scaler, every ingredient needs a name and a quantity. That means we need to store text and numbers. When we store text in Python, we call this a string data type. The text "Hello, world!" is a string, but a string can also contain numbers and punctuation. For example, "20-minute pasta recipe", is also a string.
+
+5. String data types
+Python strings can be created using either single or double quotes. Both work the same way, but there's one important reason to choose double quotes: if our string includes an apostrophe. For example, if we want to store "Chef's secret seasoning", we'd need to use double quotes because the apostrophe is the same character as a single quote. If we tried using single quotes, Python would think the apostrophe ends the string and get confused about the rest of the text, causing an error.
+
+6. String variable
+To store a string variable, we write a variable name. This can be anything we like. In Python, the standard way is to write variable names in lowercase with underscores for spaces, like ingredient_name. This convention makes our code easier for other developers to read.
+
+7. String variable
+We follow that with an equals sign, which assigns a value to our variable name,
+
+8. String variable
+and then write the string we want to store in the variable using quotation marks.
+
+9. Integer data types and variables
+Next, we need to store how much of this ingredient we need. Whole numbers in Python are referred to as an integer data type. These numbers do not have fractions or decimals. For our tomatoes, let's say we need two, so we create another variable called ingredient_quantity. Notice that we don't use quotation marks when storing integers.
+
+10. Printing variables
+We've stored our first variables! Let's now test to confirm they've been stored correctly by using the print function. This time, we pass the variable name to the print function. Python looks inside the variable and prints the value we have stored.
+
+11. Adjusting variables
+One of the powerful things about variables is that we can change what's stored in them. Let's adjust our ingredient_quantity, since we actually only need one tomato. The next time we print this variable, we'll see the updated quantity.
+
+12. Let's practice!
+Let's start building our recipe scaler.

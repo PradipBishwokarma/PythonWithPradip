@@ -1,0 +1,27 @@
+1. What is Python?
+Hi, and welcome to this introductory Python course for developers. My name is Pradip, and I'll be your Python guide.
+
+2. What to expect
+This course will teach us all about Python and how to think like a developer. We'll learn why Python is one of the most popular programming languages and, most importantly, write and run our own code. Let's get started.
+
+3. Why learn Python?
+Python is a popular, general-purpose programming language used to build almost any type of software like applications, automations, websites, and more. In fact, some of the worlds most popular apps like Facebook, Netflix, and Spotify were built using Python. It is known for its clear, readable syntax, and large developer community. Python is also completely free and open-source, meaning anyone can use it to build anything.
+
+
+4. Build a recipe scaler
+Throughout this course, we'll build a recipe scaler that turns a recipe into a shopping list for a party. It will be a practical Python script that demonstrates the core concepts we'll learn throughout this course. A Python script is a file where we write Python code that tells the computer what to do when we run it. We'll follow standard development practices: starting small, iterating, and testing as we build, while documenting along the way.
+
+5. By the end of the course
+By the end, we'll understand variables, data types, control flow, and how to structure working Python code. Our first step is the print function.
+
+6. The print function
+Every developer needs a way to see what their code is doing, either to fix a mistake or to check their work. In Python, the print function is the tool for this. It is a built-in function that allows us to display the results of code operations, and is what we'll use to test our code. We first write the word 'print' with opening and closing parentheses after it.
+
+7. The print function
+Next, we place the message we want to display within the parentheses, enclosed in a set of quotation marks, which can be either single or double. When we run the code, we'll see the result of our code operation.
+
+8. Documenting with comments
+Before we begin, remember that we also need to document along the way. We'll do that with code comments within our code. These comments serve as a reminder and help others understand what our code is doing. A line starting with # is a code comment; it appears in a different color and does not affect the rest of the code.
+
+9. Let's practice!
+Alright, let's practice some Python before we start to build our recipe scaler.

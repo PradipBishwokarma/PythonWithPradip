@@ -1,0 +1,63 @@
+1. Dictionaries
+We've used lists to store multiple values, but what if we need to show a relationship between them?
+
+2. Ingredients list
+Our ingredients list holds names, but it doesn't link them to quantities. There's no clear way to show that "pasta" requires 500 grams. We need a data structure that stores paired information: dictionaries.
+
+3. Dictionary
+In Python, a dictionary is a data structure consisting of key-value pairs. Like a real dictionary, we can look up a word, which would be a key, and get its associated definition or value.
+
+4. Why use dictionaries?
+Dictionaries are fundamental in Python development because they let us structure related data efficiently. For example, we can use them to store user profile data with keys like username, email, and preferences, or to map IP addresses to locations for analytics. For our recipe scaler, we'll use them to link ingredient names to their quantities.
+
+
+5. Creating a dictionary
+To create a dictionary we name our variable and use an equals sign, as usual.
+
+6. Creating a dictionary
+Instead of the square brackets we used to make a list, we use curly brackets.
+
+7. Creating a dictionary
+Inside, we provide our first key as a string. In this case, the first ingredient name.
+
+8. Creating a dictionary
+To associate a value with the key we follow this with a colon,
+
+9. Creating a dictionary
+after which we enter the associated value, the quantity. This syntax makes a key-value pair.
+
+10. Creating a dictionary
+To add more pairs, we add a comma,
+
+11. Creating a dictionary
+then provide more keys and values using the same syntax,
+
+12. Creating a dictionary
+and so on to complete the dictionary,
+
+13. Creating a dictionary
+finishing with a closing curly bracket.
+
+14. Accessing a value based on the key
+A dictionary consists of key-value pairs whose order remains unchanged once set. We can access a value by subsetting with its key. For example, to find the quantity of a specific ingredient, we use square brackets with the key name instead of an index. The output shows the ingredient's quantity.
+
+15. Accessing all values
+To get all values in a dictionary, we can use the dictionary's .values() method, which returns only the values without their associated keys.
+
+16. Accessing all keys
+Alternatively, we can use the .keys() method to retrieve all keys in a dictionary.
+
+17. Viewing an entire dictionary
+To view the entire dictionary, we can print it. With the .items() method, we can return a list of all key-value pairs, where each key-value pair is shown as comma separated values inside parentheses. Values in parentheses are known as a tuple, a data structure we'll cover next.
+
+18. Adding a key-value pair
+To update a dictionary with a new key-value pair, we use our typical assignment syntax with the variable name and an equals sign. However, as we are creating new information in an existing dictionary, we use square brackets to subset, providing the new key name, in this case, another ingredient.
+
+19. Updating a value
+The same syntax can be used to update the value associated with an existing key. To change the quantity of an ingredient, we can assign it a new value like so.
+
+20. Duplicate keys
+Note that dictionaries do not accept duplicate keys. If we have two identical keys, like here with garlic, then the most recent value will be the one assigned. This is important to remember when debugging, as duplicate keys won't cause an error but will silently overwrite earlier values.
+
+21. Let's practice!
+Let's build some dictionaries!

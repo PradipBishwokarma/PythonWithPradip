@@ -1,0 +1,29 @@
+1. Lists
+So far, each variable we've worked with has contained a single value.
+
+2. Problem
+However, in real development work, we often need to handle collections of data, like multiple ingredients in a recipe, user inputs, or database records. Keeping these values as separate variables isn't efficient.
+
+3. Lists to the rescue!
+Python has a data type called a list, allowing us to store multiple values of any data type in a single variable. We create a list using square brackets, with values separated by commas. Here's our ingredient list for the recipe scaler. We can also provide variables rather than raw values, which is useful when building lists dynamically.
+
+4. Checking the data type
+We can use Python's type function to check the type of a list variable. The output confirms it is a list. This will be the case regardless of what type of data we store as values inside the list.
+
+5. Accessing elements of a list
+Let's print our list. However, as lists contain multiple values we might only want to check for one or more specific values, so printing the entire list every time is inefficient. Lists are ordered and indexed, meaning each element has a specific position we can reference. Python assigns an index number to each value, starting at zero for the first element.
+
+6. Accessing elements of a list
+We use square brackets to create a list. To access individual elements, we also use square brackets with the index position inside. Here, we provide zero to access the first element in our ingredients list, which returns the corresponding value. If we want the fourth element, we use index three (remember, we start counting from zero) returning the string "basil".
+
+7. Finding the last element in a list
+To access the final value in a list, we could count to the end. In this case, it would be index five as there are six elements. However, Python provides a more practical approach that's especially useful when working with lists of unknown length. We can use index minus one, which is shorthand for the last element. This works regardless of the list length.
+
+8. Accessing multiple elements
+Often we need to access a range of values from a list. For example, extracting the first few ingredients for a preview or processing data in chunks. Python's slice syntax makes this straightforward. We use square brackets to subset, passing the index of the first element, followed by a colon, and then the index of the last element plus one. We add one because Python slices up to but not including the final index. Here we've grabbed the second and third list items, tomatoes and garlic.
+
+9. Accessing multiple elements
+If we want all elements from a specific index to the end of the list, we include the starting index and colon, but leave the end position empty. Here, we get the last three elements at indexes three, four, and five. Likewise, to get elements from the start up to a specific position, we leave the starting position empty. Here, we get the first three elements at indexes zero, one, and two.
+
+10. Alternating access
+We can also use step values to access elements at intervals. This is useful for sampling data or processing alternating items. To grab every second element starting from the first, we use two colons followed by two, returning the elements at indexes zero, two, and four. To start from the second element at index one and get every third value, we specify the starting index, then both colons, then the step value of three.

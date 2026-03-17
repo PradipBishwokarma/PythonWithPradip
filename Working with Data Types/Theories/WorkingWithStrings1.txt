@@ -1,0 +1,29 @@
+1. Working with strings
+Welcome back! Previously, we introduced strings. Now let's look at this data type in more detail by looking at multi-line strings and methods.
+
+2. Strings are everywhere!
+Strings are one of the most common data types we'll work with as developers. We use them for displaying messages to users, processing text input, working with file names, formatting output, and handling data. Understanding how to manipulate strings efficiently is essential.
+
+3. Python knows single and double quotes
+As we know, Python strings can be created using single or double quotes. One reason for choosing double quotes is if we want to use an apostrophe.
+
+4. Advantages of double quotes
+Python will think the apostrophe is the end of the string and show a syntax error as an output. Using double quotes, we can save and then print out the variable without any errors.
+
+5. Sentences and paragraphs
+So far we haven't worked with long blocks of text. Here, we store a recipe step, which just fits on a single line. When working with more text we will need to wrap it onto additional lines.
+
+6. Multi-line strings
+The convention is to use three sets of double quotes. As an example, we store a full recipe instruction with multiple steps. When we use three sets of quotes like this, it is generally referred to as a multi-line string. The benefit of this approach is that it is easily readable. Multi-line strings are commonly used in Python for documentation, such as in scripts. They're also useful for storing longer text like instructions, error messages, or help text.
+
+7. Methods
+Python offers built-in methods for working with strings. A method is a function that is only available to a particular data type, for example, strings. They are tools commonly used in development for standardizing input, or transforming text. The generic syntax is to place a period, or dot, after the variable we are working with, then call the method by writing its name and ending with parentheses.
+
+8. Replacing parts of strings
+We can replace parts of the string with values of our choice using the .replace() method. Let's update a message. As we are updating the variable we assign it by writing the variable name equals, then write the variable again, followed by calling the .replace() method. We provide two things inside the parentheses: first, the text to be replaced, and second, the text to change it to. This updates welcome_message by changing "George" to "John".
+
+9. Changing case
+We can also convert between upper and lowercase, which is useful for standardizing inputs. For example, when comparing email addresses, we typically convert them to lowercase first to ensure accurate matching regardless of how the user typed it. If we want to convert our ingredient_name variable to lowercase, we use the .lower() method. Unlike .replace(), we don't need to provide anything inside parentheses. Likewise, to convert to all uppercase, we can use the .upper() method.
+
+10. Let's practice!
+Now let's string some exercises together!
